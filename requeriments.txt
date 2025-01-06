@@ -1,0 +1,7 @@
+streamlit
+transformers
+requests
+io
+PIL
+torch
+matplotlib.pyplot
