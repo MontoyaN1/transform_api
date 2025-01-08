@@ -75,16 +75,16 @@ streamlit run ./transform_local/main_object_image.py
 Se abrira una pestaña en el navegador en donde se vera algo como lo siguiente:
 
 
-![alt text](image.png)
+![alt text](./img/image.png)
 
 Se da click en en "Browse Files" y se selecciona una imagén.
 Abajo de la imangén se carga una tabla en donde se muestra
 el objeto detectado y la confianza que tiene el modelo
 con respecto a su predicción.
 
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+![alt text](./img/image-1.png)
+![alt text](./img/image-2.png)
+![alt text](./img/image-3.png)
 
 
 ### Tranformer y ejecución de modelos en local
@@ -101,7 +101,7 @@ compararlo al usar una API:
   y fijandonos en el número de parametros que tiene el modelo,
   por ejemplo:
 
-  ![alt text](image-4.png)
+  ![alt text](./img/image-4.png)
 
   se puede dar una aproximación de la capacidad necesaria
   de RAM, CPU  y GPU para ejecutar el modelo. También hay que
@@ -134,13 +134,13 @@ streamlit run ./api_quest_asnwer/main_quest_answer.py
 
 Se abre una pestaña del navegador y se vera lo siguiente:
 
-![alt text](image-5.png)
+![alt text](./img/image-5.png)
 
 Para el desarrollo de la aplicación se usa una API del modelo `deepset/roberta-base-squad2` en donde se necesitan de dos parámetros para que el modelo de respuestas. Uno que es la pregunta y otro que es el contexto necesario para que la respuesta a la pregunta sea coherente.
 
 **Ejemplo**:
 
-![alt text](image-6.png)
+![alt text](./img/image-6.png)
 
 
 ## Aplicación que permite usar varios modelos en describir una imagen
@@ -153,7 +153,7 @@ streamlit run ./api_multi_model/main_multi_model.py
 
 Se vera lo siguiente:
 
-![alt text](image-7.png)
+![alt text](./img/image-7.png)
 
 La aplicación permite al usuario escoger una imagen y seleccionar varios uno de varios modelos para obtener una descripción de dicha imagen. Los modelos usados son:
 
@@ -164,13 +164,13 @@ La aplicación permite al usuario escoger una imagen y seleccionar varios uno de
 
 La lógica de la aplicación se sintetiza de la siguiente manera:
 
-![alt text](image-13.png)
+![alt text](./img/image-13.png)
 
 
 **Ejemplo**:
 
-![alt text](image-8.png)
-![alt text](image-10.png)
-![alt text](image-9.png)
-![alt text](image-11.png)
-![alt text](image-12.png)
+![alt text](./img/image-8.png)
+![alt text](./img/image-10.png)
+![alt text](./img/image-9.png)
+![alt text](./img/image-11.png)
+![alt text](./img/image-12.png)
